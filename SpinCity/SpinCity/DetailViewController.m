@@ -28,9 +28,11 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem summary];
-    }
+    self.albumTitleLabel.text = self.detailItem.title;
+    self.priceLabel.text = [NSString stringWithFormat:@"$%01.2f", self.detailItem.price];
+    self.artistLabel.text = self.detailItem.artist;
+    self.locationLabel.text = self.detailItem.locationInStore;
+    self.descriptionTextView.text = self.detailItem.summary;
 }
 
 - (void)viewDidLoad {
