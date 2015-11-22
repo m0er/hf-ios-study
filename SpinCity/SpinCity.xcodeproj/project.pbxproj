@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624526631C01E63600B457BC /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 624526621C01E63600B457BC /* AlbumArray.plist */; };
 		6251F05F1BF86B6500631289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6251F05E1BF86B6500631289 /* main.m */; };
 		6251F0621BF86B6500631289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6251F0611BF86B6500631289 /* AppDelegate.m */; };
 		6251F0651BF86B6500631289 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6251F0641BF86B6500631289 /* MasterViewController.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		624526621C01E63600B457BC /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 		6251F05A1BF86B6500631289 /* SpinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6251F05E1BF86B6500631289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6251F0601BF86B6500631289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				6251F05E1BF86B6500631289 /* main.m */,
+				624526621C01E63600B457BC /* AlbumArray.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				6251F0701BF86B6500631289 /* LaunchScreen.storyboard in Resources */,
 				6251F06D1BF86B6500631289 /* Assets.xcassets in Resources */,
+				624526631C01E63600B457BC /* AlbumArray.plist in Resources */,
 				6251F06B1BF86B6500631289 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
